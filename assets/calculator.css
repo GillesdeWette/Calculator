@@ -1,0 +1,64 @@
+.calculator {
+
+	max-width: 500px;
+	font-size: 16px;
+	background-color: #908f97;
+	overflow: hidden;
+}
+
+.calculator .screen {
+
+	height: 60px;
+	background-color: white;
+	margin: 15px 20px;
+	border: 1px solid #444444;
+	text-align: right;
+	line-height: 60px;
+	font-size: 3em;
+	padding: 0 20px;
+}
+
+.calculator ul.buttons {
+
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	overflow: hidden;
+}
+
+.calculator ul.buttons li {
+
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+
+.calculator ul.buttons li .button {
+
+	background-color: #2f2f2f;
+	color: #eaeaea;
+	display: block;
+	margin: 8px 10px;
+	padding: 8px 10px;
+	font-weight: bold;
+	font-size: 2em;
+	border: 1px solid #cacaca;
+	cursor: pointer;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* IE/Edge */
+	user-select: none;           /* non-prefixed version, currently */
+}
+
+.calculator ul.buttons li .button:hover {
+
+	background-color: #454545;
+}
+
+.calculator ul.buttons li .button:active {
+
+	background-color: #676767;
+}
